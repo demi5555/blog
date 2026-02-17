@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: 'http://blogs2.csm.linkpc.net/api/v1',
+    baseURL: 'https://blogs2.csm.linkpc.net/api/v1',
 })
 
 // Attach token to every request
